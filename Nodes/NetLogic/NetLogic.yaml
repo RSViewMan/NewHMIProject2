@@ -3,3 +3,21 @@ Type: NetLogicCategoryFolder
 Children:
 - Name: RuntimeNetLogic1
   Type: NetLogic
+  Children:
+  - Name: MethodInvocation1
+    Type: MethodInvocation
+    Children:
+    - Name: ObjectPointer
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType"
+    - Name: Method
+      Type: BaseDataVariableType
+      DataType: String
+    - Class: Reference
+      Target: ns=2;i=98
+      Direction: Forward
