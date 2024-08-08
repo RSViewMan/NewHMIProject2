@@ -22,5 +22,8 @@ public class RuntimeNetLogic1 : BaseNetLogic
     {
         // Insert code to be executed when the user-defined logic is stopped
     }
-    
+
+    [ExportMethod]
+    public void DoNothing(){}
+
 }
