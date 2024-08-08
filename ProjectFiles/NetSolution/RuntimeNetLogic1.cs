@@ -22,10 +22,5 @@ public class RuntimeNetLogic1 : BaseNetLogic
     {
         // Insert code to be executed when the user-defined logic is stopped
     }
-    public override void TestFunction()
-    {
-        // Insert code to be executed when the user-defined logic is stopped
-    }
-
     
 }
